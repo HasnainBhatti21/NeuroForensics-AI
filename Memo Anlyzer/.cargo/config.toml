@@ -1,0 +1,12 @@
+﻿# WinLibs mingw-w64 toolchain pins (stable-x86_64-pc-windows-gnu).
+# This workstation has a stale 32-bit MinGW at C:\MinGW\bin earlier on the
+# system PATH, so gcc/ar/linker are pinned by absolute path — cargo [env]
+# PATH alone is NOT sufficient because cc-rs resolves "gcc" via PATH order.
+[env]
+PATH = "C:/Users/Jhon/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+CC_x86_64_pc_windows_gnu = "C:/Users/Jhon/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe"
+AR_x86_64_pc_windows_gnu = "C:/Users/Jhon/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ar.exe"
+
+[target.x86_64-pc-windows-gnu]
+linker = "C:/Users/Jhon/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe"
+ar = "C:/Users/Jhon/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ar.exe"

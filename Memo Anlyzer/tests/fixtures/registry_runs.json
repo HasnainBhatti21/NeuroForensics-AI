@@ -1,0 +1,12 @@
+{
+  "acquired_at": "2026-01-02T10:00:05+00:00",
+  "keys": [
+    {"hive":"HKCU","key_path":"Software\\Microsoft\\Windows\\CurrentVersion\\Run","label":"Run","values":[
+      {"value_name":"Updater","data":"C:\\Users\\Public\\svcloader.exe -s"},
+      {"value_name":"OneDrive","data":"C:\\Users\\user\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe /background"}
+    ]},
+    {"hive":"HKLM","key_path":"Software\\Microsoft\\Windows\\CurrentVersion\\Run","label":"Run","values":[
+      {"value_name":"SecurityHealth","data":"C:\\Windows\\System32\\SecurityHealthSystray.exe"}
+    ]}
+  ]
+}

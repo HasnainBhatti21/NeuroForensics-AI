@@ -1,0 +1,7 @@
+{
+  "acquired_at": "2026-01-02T10:00:00+00:00",
+  "connections": [
+    {"protocol":"TCP","local_address":"0.0.0.0","local_port":7070,"remote_address":"0.0.0.0","remote_port":0,"state":"LISTENING","pid":6012,"process":"AnyDesk.exe"},
+    {"protocol":"TCP","local_address":"192.168.7.20","local_port":51234,"remote_address":"203.0.113.7","remote_port":443,"state":"ESTABLISHED","pid":5120,"process":"svcloader.exe"}
+  ]
+}
