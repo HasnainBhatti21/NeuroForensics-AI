@@ -163,7 +163,7 @@ NeuroForensics-AI is an **AI-powered digital forensics platform** designed to ac
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-org>/NeuroForensics-AI.git
+   git clone https://github.com/HasnainBhatti21/NeuroForensics-AI.git
    cd NeuroForensics-AI
    ```
 
